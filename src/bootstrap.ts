@@ -1,4 +1,4 @@
 import 'dotenv/config'
 import 'reflect-metadata'
 
-import '@web/application'
+import './web/application'

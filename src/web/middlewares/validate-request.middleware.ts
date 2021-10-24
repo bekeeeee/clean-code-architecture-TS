@@ -1,4 +1,4 @@
-import { BaseMiddleware } from '@web/lib/base-middleware'
+import { BaseMiddleware } from '../lib/base-middleware'
 import { Request, Response, NextFunction } from 'express'
 
 export class ValidateRequestMiddleware extends BaseMiddleware {
